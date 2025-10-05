@@ -9,7 +9,7 @@ Array manipulation, traversal, and algorithms.
 - Sorting and searching in arrays
 
 ## Problems
-<!-- Add your solved problems here -->
+- 001 - Two Sum : 14:27
 
 ### Example Solutions
 - [001 - Two Sum](./001-two-sum.py) - Easy
