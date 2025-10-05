@@ -54,6 +54,8 @@ This repository is organized by problem categories to help track progress and fi
 
 Track your progress by updating the README in each category folder with completed problems.
 
+See [PROGRESS.md](./PROGRESS.md) for a comprehensive progress tracker with statistics, milestones, and study plan.
+
 ## 🎯 Goals
 
 - Build strong problem-solving skills
