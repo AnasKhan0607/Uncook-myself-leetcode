@@ -20,20 +20,13 @@ class Solution:
         :type target: int
         :rtype: List[int]
         """
-        # Dictionary to store number -> index mapping
-        seen = {}
-        
-        for i, num in enumerate(nums):
-            complement = target - num
-            
-            # Check if complement exists in our map
-            if complement in seen:
-                return [seen[complement], i]
-            
-            # Store current number and its index
-            seen[num] = i
-        
+        difference = {}
+        for i in range(len(nums)):
+            if target - nums[i] in difference:
+                return [difference[target-nums[i]], i]
+            difference[nums[i]] = i
         return []
+
 
 # Test cases
 if __name__ == "__main__":
